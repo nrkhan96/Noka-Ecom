@@ -1,0 +1,54 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.12.35707.178
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "UI", "UI", "{DA07E01D-7BBC-46EB-ABF5-746223386E59}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "API", "API", "{D82F737E-20A3-4FA1-9F16-85033E461B9F}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Infrastructure", "Infrastructure", "{B7CCE65E-0C72-4093-9D2B-A1FE77C04D91}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Core", "Core", "{1DC0764F-A5D8-412C-853A-8094B9D228FE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EcomApp.Api", "src\API\EcomApp.Api\EcomApp.Api.csproj", "{1E3832F5-637C-405E-9602-D4325EE4519C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EcomApp.Domain", "src\Core\EcomApp.Domain\EcomApp.Domain.csproj", "{D8B0B06A-3AED-4FBF-B1C0-51A912884AB6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EcomApp.Application", "src\Core\EcomApp.Application\EcomApp.Application.csproj", "{55DBE26C-0E3A-4596-BB86-707A801AF1F8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EcomApp.Web", "src\UI\EcomApp.Web\EcomApp.Web.csproj", "{993229C1-636E-4047-BA8C-75117377569B}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{1E3832F5-637C-405E-9602-D4325EE4519C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1E3832F5-637C-405E-9602-D4325EE4519C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1E3832F5-637C-405E-9602-D4325EE4519C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1E3832F5-637C-405E-9602-D4325EE4519C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D8B0B06A-3AED-4FBF-B1C0-51A912884AB6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D8B0B06A-3AED-4FBF-B1C0-51A912884AB6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D8B0B06A-3AED-4FBF-B1C0-51A912884AB6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D8B0B06A-3AED-4FBF-B1C0-51A912884AB6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{55DBE26C-0E3A-4596-BB86-707A801AF1F8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{55DBE26C-0E3A-4596-BB86-707A801AF1F8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{55DBE26C-0E3A-4596-BB86-707A801AF1F8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{55DBE26C-0E3A-4596-BB86-707A801AF1F8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{993229C1-636E-4047-BA8C-75117377569B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{993229C1-636E-4047-BA8C-75117377569B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{993229C1-636E-4047-BA8C-75117377569B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{993229C1-636E-4047-BA8C-75117377569B}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{1E3832F5-637C-405E-9602-D4325EE4519C} = {D82F737E-20A3-4FA1-9F16-85033E461B9F}
+		{D8B0B06A-3AED-4FBF-B1C0-51A912884AB6} = {1DC0764F-A5D8-412C-853A-8094B9D228FE}
+		{55DBE26C-0E3A-4596-BB86-707A801AF1F8} = {1DC0764F-A5D8-412C-853A-8094B9D228FE}
+		{993229C1-636E-4047-BA8C-75117377569B} = {DA07E01D-7BBC-46EB-ABF5-746223386E59}
+	EndGlobalSection
+EndGlobal
